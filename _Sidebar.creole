@@ -1,6 +1,7 @@
 == Comece Aqui ==
 
 * [[Manual de Onboarding]]
+* [[Manual de Desenvolvimento]]
 
 == Android ==
 
