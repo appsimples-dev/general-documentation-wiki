@@ -2,7 +2,6 @@
 
 == Comece Aqui ==
 
-* [[Home]]
 * [[Manual de Onboarding]]
 * [[Manual de Desenvolvimento]]
 
@@ -13,4 +12,7 @@
 == [[Web]] ==
 
 == [[Backend]] ==
+
+== [[Home]]==
+
 
