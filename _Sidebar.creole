@@ -5,6 +5,8 @@
 * [[Manual de Onboarding]]
 * [[Manual de Desenvolvimento]]
 
+== [[Home]]==
+
 == [[Android]] ==
 
 == [[iOS]] ==
@@ -12,7 +14,4 @@
 == [[Web]] ==
 
 == [[Backend]] ==
-
-== [[Home]]==
-
 
