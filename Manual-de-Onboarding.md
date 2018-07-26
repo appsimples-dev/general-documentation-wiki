@@ -10,20 +10,20 @@ Esse guia foi desenvolvido para tentar te ajudar nesse primeiro momento de muita
 Finalmente após inscrição, entrevista e contratação, chega o primeiro dia. Esse começo é muito importante para você saber mais sobre a empresa e para a empresa te conhecer. Você irá aprender quem são seus colegas de trabalho, se familiarizar com as ferramentas e processos da empresa e explorar mais os projetos em que estamos trabalhando. É muita informação nova, então fique tranquilo se ficar um pouco confuso ou se não entender tudo, todos nós já passamos por isso.
 
 ### 1.3 Outsmart Buddy
-	Para te ajudar nesse início, um dos integrantes da equipe será designado para te acompanhar. Isso não significa que você não possa tirar dúvidas ou pedir ajuda para outras pessoas. O objetivo do buddy é permitir que você se adapte à organização, à cultura e ao novo ambiente da melhor maneira possível. É uma pessoa que você tenha confiança e se sinta à vontade para conversar de qualquer assunto.
+Para te ajudar nesse início, um dos integrantes da equipe será designado para te acompanhar. Isso não significa que você não possa tirar dúvidas ou pedir ajuda para outras pessoas. O objetivo do buddy é permitir que você se adapte à organização, à cultura e ao novo ambiente da melhor maneira possível. É uma pessoa que você tenha confiança e se sinta à vontade para conversar de qualquer assunto.
 
 ## 2 Sobre a empresa
 
 ### 2.1 História rápida
-		A empresa foi fundada em 2014 pelos sócios Luciano Naganawa e Ricardo di Lazzaro. Tudo começou quando Luciano, que trabalhava em banco, resolveu mudar de carreira e decidiu realizar um curso de desenvolvimento IOS, dando assim o primeiro passo para o que viria a ser a AppSimples. No início, a ideia era desenvolver uma solução de aplicativo que coubesse em vários negócios, porém conforme os projetos foram chegando, percebeu-se que os clientes queriam coisas muito diferentes uns dos outros. Então, a partir daí a empresa começou a desenvolver os projetos personalizados e estamos crescendo cada vez mais.
+A empresa foi fundada em 2014 pelos sócios Luciano Naganawa e Ricardo di Lazzaro. Tudo começou quando Luciano, que trabalhava em banco, resolveu mudar de carreira e decidiu realizar um curso de desenvolvimento IOS, dando assim o primeiro passo para o que viria a ser a AppSimples. No início, a ideia era desenvolver uma solução de aplicativo que coubesse em vários negócios, porém conforme os projetos foram chegando, percebeu-se que os clientes queriam coisas muito diferentes uns dos outros. Então, a partir daí a empresa começou a desenvolver os projetos personalizados e estamos crescendo cada vez mais.
 
 ### 2.2 Situação atual
-		A Outsmart está em um momento de crescimento acelerado, no qual estamos recebendo muitos projetos e estabelecendo metas agressivas. Conseguimos alcançar o objetivo de trabalhar com grandes empresas como Electrolux e Suzano e startups consolidadas, como Stoodi e o QuintoAndar. 
+A Outsmart está em um momento de crescimento acelerado, no qual estamos recebendo muitos projetos e estabelecendo metas agressivas. Conseguimos alcançar o objetivo de trabalhar com grandes empresas como Electrolux e Suzano e startups consolidadas, como Stoodi e o QuintoAndar. 
 Nossa empresa, que começou com 3 pessoas, hoje já conta com mais de trinta funcionários e a previsão é de crescermos cada vez mais. 
 Queremos atuar e ser percebidos como parceiros dos nossos clientes, antes, durante e depois da execução dos projetos, entendendo as necessidades e desafios de cada cliente e identificando novas soluções, sempre por meio de tecnologia.
 	
 ### 2.3 Cultura da empresa
-	A empresa preza muito por manter o seu clima colaborativo, ajudar um colega sempre que possível do mesmo jeito que você será ajudado quando for necessário. Não há incentivo para um ambiente competitivo dentro da Outsmart, pois, por experiência dos próprios sócios, isso só gera intrigas, pessoas querendo passar uma por cima das outras e opiniões não sendo ouvidas. Aqui a sua opinião é tão válida quanto de qualquer outra pessoa, e queremos sim ouvir o que você tem a dizer, caso algo o esteja incomodando, não deixe de nos comunicar o problema.
+A empresa preza muito por manter o seu clima colaborativo, ajudar um colega sempre que possível do mesmo jeito que você será ajudado quando for necessário. Não há incentivo para um ambiente competitivo dentro da Outsmart, pois, por experiência dos próprios sócios, isso só gera intrigas, pessoas querendo passar uma por cima das outras e opiniões não sendo ouvidas. Aqui a sua opinião é tão válida quanto de qualquer outra pessoa, e queremos sim ouvir o que você tem a dizer, caso algo o esteja incomodando, não deixe de nos comunicar o problema.
 
 ## 3 Dia a dia
 
@@ -31,10 +31,10 @@ Queremos atuar e ser percebidos como parceiros dos nossos clientes, antes, duran
 O horário da empresa é bem flexível, das 8h às 20h (às vezes até mais tarde) você encontrará alguém trabalhando, então sinta-se à vontade para moldar o seu horário conforme a sua rotina, porém, com grande flexibilidade vem grande responsabilidade! Tente manter a sua equipe sempre informada sobre os seus horários, pois assim ficará mais fácil para marcar reuniões ou caso alguém precise da sua ajuda. Caso você precise faltar, chegar mais tarde ou sair mais cedo, seja para estudar ou qualquer outro motivo, avise sua equipe e a Fabi com antecedência. Para isso você pode falar pessoalmente ou utilizar o Slack para deixar tudo registrado.
 
 ### 3.2 Roupa
-	Não temos um dress code na Outsmart, vista-se como você se sentir mais à vontade, mas sempre usando o bom senso, pois não seria legal você vir trabalhar de pijama e chinelo. Lembre-se que apesar de descontraído, continua sendo um lugar de trabalho!
+Não temos um dress code na Outsmart, vista-se como você se sentir mais à vontade, mas sempre usando o bom senso, pois não seria legal você vir trabalhar de pijama e chinelo. Lembre-se que apesar de descontraído, continua sendo um lugar de trabalho!
 
 ### 3.3 Refeições
-	Nós possuímos um microondas no qual você pode esquentar a sua própria comida. Essa é a escolha de parte dos funcionários, mas caso você queira comer fora ou esqueceu a sua marmita, existem algumas boas opções para você se alimentar perto da empresa.
+Nós possuímos um microondas no qual você pode esquentar a sua própria comida. Essa é a escolha de parte dos funcionários, mas caso você queira comer fora ou esqueceu a sua marmita, existem algumas boas opções para você se alimentar perto da empresa.
 Em nossa copa temos sempre alguma guloseima, sinta-se à vontade para pegar o que quiser, mas caso você abra algo, não esqueça de compartilhar com o  resto da equipe. Lembre-se que o espaço é compartilhado por todos, então, sujou, limpou! Abriu, fechou!
 
 ### 3.4 Regras de convivência
@@ -87,7 +87,6 @@ Atualmente a empresa se divide em três equipes de desenvolvimento, cada uma pod
 Antes de começarmos a desenvolver um projeto, primeiramente existe a negociação com o cliente em que nós definimos o que ele espera do projeto e elaboramos uma estimativa de custo e prazo. Caso o contrato seja fechado, começa a segunda fase: a definição do escopo, em que será melhor definido as funcionalidades do app, quais farão parte desta fase e quais ficarão para as próximas fases, e também será gerado um product backlog que nos disponibiliza uma visão de alto nível das tarefas que precisam ser feitas. 
 A próxima etapa é o design, que continua durante todo o projeto. Nele nós definimos os fluxos, identidade visual e os assets de design. Simultaneamente, acontece a fase de configuração em que damos start em todas as plataformas e configuramos os ambientes do projeto. Nós temos um ciclo no qual separamos as tarefas do product backlog e as quebramos em tarefas menores e com elas definimos os sprints da semana. 
 
-
 ### 4.4 Scrum
 O Scrum é um framework de desenvolvimento ágil que é baseado em sprints. Os sprints são um conjunto de tarefas que são realizadas em um período curto, normalmente uma ou duas semanas. O conceito é ter no final desse período funcionalidades que possam ser testadas e ter um feedback do cliente. No começo do sprint, nós fazemos um planejamento (planning) das tarefas que serão realizadas. Ao longo do sprint, nós fazemos diariamente um acompanhamento rápido do que cada pessoa fez (daily) e ao fim do sprint é feito um review, que é uma retrospectiva do andamento das tarefas onde são levantados pontos positivos e negativos.
 Nós utilizamos o Scrum por ser uma metodologia consolidada no mercado e por trazer muitas vantagens para o desenvolvimento do projeto. Essa metodologia tem como principal objetivo reduzir dificuldades como falta de planejamento, mudança constante de requisitos, escopo mal definido, falta de participação do cliente e falhas na comunicação, que são comuns em projetos de tecnologia. Além disso, o Scrum se baseia em entregas rápidas, contínuas e frequentes de softwares funcionais, constante cooperação entre equipe de trabalho e de negócio, excelência técnica e simplicidade.
@@ -109,15 +108,15 @@ Não se desespere! É completamente normal termos dúvidas quando começamos a m
 
 ### 5.4 Referência ao manual de processos - Guias disponíveis
 
- * Manual de Desenvolvimento: Aqui você encontrará diretrizes para trabalhar como desenvolvedor à partir das práticas utilizadas na Outsmart. 
+* Manual de Desenvolvimento: Aqui você encontrará diretrizes para trabalhar como desenvolvedor à partir das práticas utilizadas na Outsmart. 
 
- * Manual Gitflow: Um manual para você encontrar o básico do funcionamento do git e o nosso branch model.
+* Manual Gitflow: Um manual para você encontrar o básico do funcionamento do git e o nosso branch model.
 
- * Boas Práticas de Programação: Aqui você encontrará as melhores maneiras de escrever e organizar o seu código.
+* Boas Práticas de Programação: Aqui você encontrará as melhores maneiras de escrever e organizar o seu código.
 
- * Setup de Projeto: Um guia para te ajudar a configurar as suas ferramentas para começar o seu projeto. 
+* Setup de Projeto: Um guia para te ajudar a configurar as suas ferramentas para começar o seu projeto. 
 
- * Projeto Base: Modelos e templates de projetos para cada plataforma, como devem ser organizados.
+* Projeto Base: Modelos e templates de projetos para cada plataforma, como devem ser organizados.
 
 ## 6 Organizacional
 
@@ -129,7 +128,7 @@ A Outsmart é uma empresa que se organiza de forma bastante horizontal, em que n
 As equipes de desenvolvimento são criadas de forma que possam conduzir um projeto inteiro de forma autônoma. Isso significa que elas não dependem de um project manager, sócio ou “chefe” para realizar o seu trabalho, o que cria uma responsabilidade muito grande.
 
 ### 6.3 Colaboração
- Embora sejam independentes, as equipes podem (e devem) contar com a ajuda de todas as demais pessoas da empresa, incluindo o corpo administrativo da empresa, área comercial e principalmente, as outras equipes de desenvolvimento. Nosso espírito de colaboração não se limita às pessoas de uma equipe, mas sim à empresa como um todo. Nada impede que um desenvolvedor ajude ou peça ajuda à equipe comercial para resolver um problema, assim como os sócios da empresa estarão disponíveis para sugerir ou receber sugestões sobre qualquer tema.
+Embora sejam independentes, as equipes podem (e devem) contar com a ajuda de todas as demais pessoas da empresa, incluindo o corpo administrativo da empresa, área comercial e principalmente, as outras equipes de desenvolvimento. Nosso espírito de colaboração não se limita às pessoas de uma equipe, mas sim à empresa como um todo. Nada impede que um desenvolvedor ajude ou peça ajuda à equipe comercial para resolver um problema, assim como os sócios da empresa estarão disponíveis para sugerir ou receber sugestões sobre qualquer tema.
 Dentro das equipes não estabelecemos uma liderança formal. Aqui vale ressaltar que o P.O. não é um “líder” de projeto: sua função é facilitar o trabalho de todos organizando as tarefas, centralizando as decisões tomadas e criando um canal de comunicação organizado com o cliente e as demais áreas da empresa. As decisões técnicas e de projeto devem ser tomadas pela equipe como um todo, não existe alguém com palavra final. Isso exige que a equipe se comunique bastante, crie discussões, muitas vezes exigindo inputs de outras pessoas da empresa ou até mesmo do cliente. Isso não impede que pessoas assumam um papel de liderança dentro das equipes, de acordo com as especificidades técnicas e de produto em cada projeto. Na verdade, é natural que este tipo de dinâmica ocorra naturalmente durante nossos projetos, e isso ajuda bastante na nossa capacidade de conciliar vários projetos simultâneos.
 
 ### 6.4 Resolvendo conflitos
