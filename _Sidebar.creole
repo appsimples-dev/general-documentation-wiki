@@ -1,3 +1,5 @@
+[[images/logos.png]]
+
 == Comece Aqui ==
 
 * [[Manual de Onboarding]]
