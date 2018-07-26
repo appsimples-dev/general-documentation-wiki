@@ -1,5 +1,3 @@
-# Manual de Onboarding
-
 ## 1. Introdução
 Seja bem-vindo à Outsmart!
 
