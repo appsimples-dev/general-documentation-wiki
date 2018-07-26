@@ -1,3 +1,19 @@
 == Comece Aqui ==
 
 <<toc StartHere/ 2 >>
+
+== Android ==
+
+<<toc Android/ 2 >>
+
+== iOS ==
+
+<<toc iOS/ 2 >>
+
+== Backend ==
+
+<<toc Backend/ 2 >>
+
+== Web ==
+
+<<toc Web/ 2 >>
