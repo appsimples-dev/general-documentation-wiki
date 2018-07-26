@@ -38,6 +38,8 @@ When it comes to managing and organizing your code in a software development pro
 Git is a version control system, with it you can keep track of all your project's change history and even get back to a point in your project if you wish, in case you detected a major issue, for instance, and instead of spending a lot of time repairing it you could simply go back to a point before that mistake was made. These points are called "commits", and as the name indicates they are points in which you have committed your work to your project.
 
 A Git repository (repo) is represented by its development tree, that may have one or many development branches. A branch is basically a timeline of changes, or commits, it may have its own child branches which almost always return (or merge) back to the main branch. The main branch (or the tree's trunk) is called the master branch, and it contains the project's functional code. A developer is expected to create branches from the master branch (such as feature or bug-fixing branches), work on the project, commit their work in the branch, and then ask for permission to merge the branch back to the master branch, at which point a code review should be done.
+
+[[images/Manual_De_Desenvolvimento/manual_dev_1.png]]
 	
 At Outsmart we use Bitbucket as our git control and code review tool. Its interface is useful in displaying all of the pertinent Git information, such as our development tree with its branches and commits. Bitbucket holds the project's remote repo, and for a developer to have access to it they must clone it into their machine. Once you clone it, the project will be available as a local repo, and after you have worked on your branch and committed the changes you must push your branch back to the remote repo, so it will be available for everyone in your team to access and review your code. 
 
@@ -79,13 +81,14 @@ When developing a product for a client, changes in the project are virtually una
 
 Alright, so now you know the basics of the Agile development methodology, now let's get into Scrum more specifically, what it is and what it comprehends. Let's start at the beginning of a project's lifespan, but first we need to introduce real quickly the concept of Product Owner (PO).
 
-
 ### 4.1 Product Owner
 
 The product owner is the center of the most high-level decision making of the project, and is active in all the steps in Scrum. Every Outsmart team should have a Product Owner, if it is not clear who is the PO of your team, please raise the issue with your colleagues.
 So, once the project has been set, the product owner will catalogue all of its most obvious and primary features and functionalities and organize them in a list, this list is called the Product Backlog. Some of the tasks that fall under the PO’s responsibilities are:
-Make sure that the project’s features and team objectives are well defined and clear to all team members.
-Communicate with the customer 
+
+* Make sure that the project’s features and team objectives are well defined and clear to all team members.
+
+* Communicate with the customer 
 
 Example: if a team member has a question about the project, they should contact the PO. If the PO cannot resolve the issue, it’s his responsibility to contact the customer or another person to resolve. The PO has autonomy to start discussions or meetings to clarify any doubts about the project.
 
@@ -110,7 +113,6 @@ Great! If you have read and understood all the Scrum and agile concepts listed i
 
 https://www.scrumalliance.org/why-scrum/scrum-guide
 
-
 ## 5. Jira
 	
 We have talked about how we use agile Scrum guidelines (if you haven't read this part please do! It's fundamental for the understanding of this section, also the Git section is rather important if you really want to follow). We discussed a lot about the Sprints, tasks, backlogs and other things, but to make all of these concepts function properly is another story, and that is where Jira comes in. Jira is a platform suitable for agile teams, and it helps us at Outsmart keep things organized and facilitates our whole Scrum approach by supplying many types of tools. On top of that, it communicates with Bitbucket, our Git control platform, which makes things even easier by connecting our PR's with our tasks, thus helping us keeping track of everything. In this section we will explain what you can and what you should do with this tool as an Outsmart employee. The first thing you should do is make sure you have the proper access rights to the project's Jira board, contact someone in your team if you need help.
@@ -119,9 +121,13 @@ We have talked about how we use agile Scrum guidelines (if you haven't read this
 
 One of the main environments of Jira is the backlog, it holds all the project's tasks that were made at the beginning of the project, as well as all the Sprints' backlogs. You can access it through Jira's left menu, it is the first item from the top. From it you can create new Sprints and new tasks, and by clicking on a task its detail will be displayed in the right side of the screen.
 
+[[images/Manual_De_Desenvolvimento/manual_dev_2.png]]
+
 ### 5.2 Active Sprints Screen
 
 The other very important environment, one that you will practically live in during your Outsmart daily life, is the Active Sprints screen, which can also be accessed through the left menu, it is the second item from the top. At the top of this screen you will see the Sprint's name, and in case there is more than one active Sprint, you can filter which Sprint you want to see or even see all the sprints at once by clicking in the Switch Sprint option, which is located to the right of the Sprint's name (the Sprint's name is usually the date in which the Sprint is scheduled to terminate). In a Sprint you can see all the Sprint's tasks that were determined in your team's Sprint Planning, organized in cards on the Sprint's board allocated inside one of the Sprint's stages (which we will talk about later). By clicking on them their details will be displayed at the right side of the screen, just like in the Backlog screen. 
+
+[[images/Manual_De_Desenvolvimento/manual_dev_3.png]]
 
 ### 5.3 Task's Details
 
@@ -149,10 +155,14 @@ The next part called People show who created the task and who it is assigned to,
 
 The task may have a description section if more information is needed in order to complete it, so you should always check this section. Also, you may leave comments at a task if you'd like, as well as send pertinent attachments when needed.
 
+[[images/Manual_De_Desenvolvimento/manual_dev_4.png]]
+[[images/Manual_De_Desenvolvimento/manual_dev_5.png]]
+
 #### 5.3.7 Development
 
 Also, at the Development section it will be listed all the branches and PR's that this task has been tagged (see our Gitflow Guide for more details on how this works on the Bitbucket end). If you click in one of these items it can redirect you to the corresponding Bitbucket page.
 
+[[images/Manual_De_Desenvolvimento/manual_dev_6.png]]
 
 #### 5.3.8 Task Stages
 
