@@ -1,6 +1,1 @@
-Welcome to the gerenal-documentation wiki!
-
-This is the home screen.
-
-
-teste
+TODO: Escrever um texto legal para a home
