@@ -21,12 +21,19 @@ Nossa empresa, que começou com 3 pessoas, hoje já conta com mais de trinta fun
 Queremos atuar e ser percebidos como parceiros dos nossos clientes, antes, durante e depois da execução dos projetos, entendendo as necessidades e desafios de cada cliente e identificando novas soluções, sempre por meio de tecnologia.
 	
 ### 2.3 Cultura da empresa
-A empresa preza muito por manter o seu clima colaborativo, ajudar um colega sempre que possível do mesmo jeito que você será ajudado quando for necessário. Não há incentivo para um ambiente competitivo dentro da Outsmart, pois, por experiência dos próprios sócios, isso só gera intrigas, pessoas querendo passar uma por cima das outras e opiniões não sendo ouvidas. Aqui a sua opinião é tão válida quanto de qualquer outra pessoa, e queremos sim ouvir o que você tem a dizer, caso algo o esteja incomodando, não deixe de nos comunicar o problema.
+A empresa preza muito por manter o seu clima colaborativo, ajudar um colega sempre que possível do mesmo jeito que você será ajudado quando for necessário. Não há incentivo para um ambiente competitivo dentro da Outsmart, acreditamos que isso gera conflitos de interesse.
+
+### 2.4 Cultura de Feedback
+Todos devem se sentir confortáveis em expor suas dúvidas e suas opiniões. Queremos ser sempre colaborativos no trabalho e na tomada de decisões, e pra isso todos devem ser livres para participar. 
+O seu feedback é muito importante. Queremos que você se sinta bem sempre, então nos ajude a entender como podemos melhorar dando feedbacks para seus colegas.
 
 ## 3 Dia a dia
 
 ### 3.1 Horários
 O horário da empresa é bem flexível, das 8h às 20h (às vezes até mais tarde) você encontrará alguém trabalhando, então sinta-se à vontade para moldar o seu horário conforme a sua rotina, porém, com grande flexibilidade vem grande responsabilidade! Tente manter a sua equipe sempre informada sobre os seus horários, pois assim ficará mais fácil para marcar reuniões ou caso alguém precise da sua ajuda. Caso você precise faltar, chegar mais tarde ou sair mais cedo, seja para estudar ou qualquer outro motivo, avise sua equipe e a Fabi com antecedência. Para isso você pode falar pessoalmente ou utilizar o Slack para deixar tudo registrado.
+
+#### 3.1.1 Agenda
+Nós utilizamos o Google Agenda para organizarmos reuniões da empresa e da equipe. Fique bastante atento aos convites que você receber, podem ser eventos importantes. Se você bloquear na agenda horários e dias que você não estará na empresa, facilitará bastante a marcação de reuniões. Nós temos uma política de bastante transparência na empresa, todos devem ter uma agenda aberta e você é livre para marcar uma conversa na agenda de qualquer um.
 
 ### 3.2 Roupa
 Não temos um dress code na Outsmart, vista-se como você se sentir mais à vontade, mas sempre usando o bom senso, pois não seria legal você vir trabalhar de pijama e chinelo. Lembre-se que apesar de descontraído, continua sendo um lugar de trabalho!
@@ -42,7 +49,7 @@ Em nossa copa temos sempre alguma guloseima, sinta-se à vontade para pegar o qu
  
 * Pratique o respeito mútuo. Respeite as pessoas que trabalham com você, não só profissionalmente, mas também pessoalmente. Em breve, você perceberá que somos mais do que colegas de trabalho, mas mesmo assim o respeito deve vir sempre em primeiro lugar. Não faça com o outro o que você não gostaria que fizessem com você.
 
-* Seja prestativo. Não há um “subordinado” na empresa, todos fazem tudo, então não se sinta inferior caso alguém lhe peça para encher uma garrafa de água ou fazer o café. Contamos com a ajuda de todos para mantermos a organização, limpeza e o bem estar dentro da empresa.
+* Seja prestativo. Não há um “subordinado” na empresa, todos fazem tudo, então não se sinta inferior caso você tenha que encher uma garrafa de água ou fazer o café. Contamos com a ajuda de todos para mantermos a organização, limpeza e o bem estar dentro da empresa.
 
 * NÃO DÊ SPOILERS! Essa é uma regra muito séria da empresa. Muito cuidado com seus comentários sobre séries, filmes, livros e afins, pois qualquer coisa pode ser considerado um spoiler. Temos punições para quem der spoilers para os colegas!
 
@@ -51,13 +58,15 @@ Vamos te colocar por dentro das ferramentas que usamos aqui na Outsmart.
 
 * Slack: É por onde nos comunicamos. Caso você precise mandar uma mensagem para a sua equipe ou alguém em particular, este é o canal.
 
-* Jira: No Jira você consegue ver quais tarefas tem para fazer. Caso você comece uma tarefa, se marque como responsável e arraste-a para “In Progress” para que todos saibam que esta tarefa já está sendo realizada.
+* Google Agenda: Onde são marcadas reuniões.
+
+* Jira: Nossas equipes utilizam o Jira para organizar os projetos e responsabilidades de cada um. É uma ferramenta muito importante, você vai gastar bastante tempo nela. Para instruções de como usar o Jira veja esse link.
 
 * Google Drive: O drive é o lugar onde compartilhamos os arquivos referentes aos projetos, por exemplo, layouts, screenshots, wireframe, APKs, backlogs, etc.
 
 * Bitbucket: É a plataforma que usamos para gerenciar o nosso repositório git. Caso você seja desenvolvedor, é por ele que você irá acessar sua branch, fazer o pull request e dar merge nelas. Informações mais detalhadas sobre este assunto estarão no manual de desenvolvimento.
 
-Nós também utilizamos as principais tecnologias e ferramentas do mercado, como Android Studio, Xcode, iTerm, Oh My zshell, Sublime, Atom, npm (administrador de dependencia), Yarn, React (biblioteca), Angular (frameworks), Node, Express, Firebase, AWS, ec2, s3, git e Postman. Linguagens como Java, JavaScript, Objective-C e Swift.
+Nós usamos um grande número de tecnologias e ferramentas nos projetos, e mudamos nosso stack constantemente. Você tem liberdade para escolher as ferramentas que irá usar, apenas alinhe com a sua equipe. (Só não é permitido o uso de Windows)
 
 ### 3.6 Eventos, confraternizações, jogos
 Para conseguir manter o clima bom da empresa, nós gostamos de organizar eventos de confraternização com nosso pessoal. Essa é uma ótima oportunidade para nos conhecermos de verdade e passar um tempo de qualidade juntos. Acreditamos que não seria agradável para ninguém passar metade do dia com pessoas que mal conhecemos direito. 
@@ -67,26 +76,16 @@ Todo aniversário, despedidas e entradas de pessoas na Outsmart nós gostamos de
 ## 4 Equipe
 
 ### 4.1 Como são organizadas as equipes
-Atualmente a empresa se divide em três equipes de desenvolvimento, cada uma pode ter de 4 a 10 pessoas. Os projetos são divididos entre as equipes, mas um mesmo projeto não é compartilhado entre elas. Cada equipe tem um P.O. e os desenvolvedores podem estar em um ou mais projetos e mexer em uma ou mais tecnologias. Além disso, temos a equipe de Business que faz o processo de venda, pós venda e acompanhamento de escopo e também temos a equipe de Design que participa de todos os projetos.  
+Atualmente a empresa se divide em pequenas equipes de projeto, cada uma pode ter de 4 a 10 pessoas. Os projetos são divididos entre as equipes, mas um mesmo projeto não é compartilhado entre elas. Cada equipe tem um P.O. e os desenvolvedores podem estar em um ou mais projetos e mexer em uma ou mais tecnologias. 
+Fora essas equipes, temos o time de Business que faz o processo de venda, pós venda e acompanhamento de escopo e também temos a equipe de Design que participa de todos os projetos.  
 
-### 4.2 Cargos
-
-* Desenvolvedores: Podem ser divididos entre sênior e júnior. Os seniores possuem mais responsabilidades, como, por exemplo, organização e tomadas de decisões técnicas, tipo de arquitetura e tecnologias que serão usadas. Os juniores, por terem menos experiência, são responsáveis mais pelas tarefas designadas nos sprints.
-
-* PO (Product Owner): A pessoa que mais entende do produto. Ele é responsável por organizar o andamento do projeto, definir o que vai ser feito semana a semana, realizar os testes de QA e por negociações com o cliente.
-
-* Designer: É responsável por gerar os assets de design, wireframe, layouts, ícones e imagens para os projetos.
-
-* Comercial: Estão sempre de olho no que está acontecendo fora da empresa e são responsáveis por trazer novos projetos para a Outsmart.
-
-* Administrativo: Responsáveis por toda a documentação relacionada a contratações, pagamentos em geral e assegurar que o estoque de guloseima nunca esteja vazio.
-
-### 4.3 Projetos
-Antes de começarmos a desenvolver um projeto, primeiramente existe a negociação com o cliente em que nós definimos o que ele espera do projeto e elaboramos uma estimativa de custo e prazo. Caso o contrato seja fechado, começa a segunda fase: a definição do escopo, em que será melhor definido as funcionalidades do app, quais farão parte desta fase e quais ficarão para as próximas fases, e também será gerado um product backlog que nos disponibiliza uma visão de alto nível das tarefas que precisam ser feitas. 
+### 4.2 Projetos
+Antes de começarmos a desenvolver um projeto, primeiramente existe a negociação com o cliente em que nós definimos o que ele espera do projeto e elaboramos uma estimativa de custo e prazo. 
+Caso o contrato seja fechado, começa a segunda fase: a definição do escopo, em que será melhor definido as funcionalidades do app, quais farão parte desta fase e quais ficarão para as próximas fases, e também será gerado um product backlog que nos disponibiliza uma visão de alto nível das tarefas que precisam ser feitas. 
 A próxima etapa é o design, que continua durante todo o projeto. Nele nós definimos os fluxos, identidade visual e os assets de design. Simultaneamente, acontece a fase de configuração em que damos start em todas as plataformas e configuramos os ambientes do projeto. Nós temos um ciclo no qual separamos as tarefas do product backlog e as quebramos em tarefas menores e com elas definimos os sprints da semana. 
 
 ### 4.4 Scrum
-O Scrum é um framework de desenvolvimento ágil que é baseado em sprints. Os sprints são um conjunto de tarefas que são realizadas em um período curto, normalmente uma ou duas semanas. O conceito é ter no final desse período funcionalidades que possam ser testadas e ter um feedback do cliente. No começo do sprint, nós fazemos um planejamento (planning) das tarefas que serão realizadas. Ao longo do sprint, nós fazemos diariamente um acompanhamento rápido do que cada pessoa fez (daily) e ao fim do sprint é feito um review, que é uma retrospectiva do andamento das tarefas onde são levantados pontos positivos e negativos.
+O Scrum é um framework de desenvolvimento ágil que é baseado em sprints. Os sprints são um conjunto de tarefas que são realizadas em um período curto, normalmente uma ou duas semanas. O conceito é ter no final desse período funcionalidades que possam ser testadas e ter um feedback do cliente. No começo do sprint, nós fazemos um planejamento (planning) das tarefas que serão realizadas. Ao longo do sprint, nós fazemos diariamente um acompanhamento rápido do que cada pessoa fez (daily) e ao fim do sprint é feito um Review. Além disso, fazemos uma Retro onde são levantados pontos positivos e negativos.
 Nós utilizamos o Scrum por ser uma metodologia consolidada no mercado e por trazer muitas vantagens para o desenvolvimento do projeto. Essa metodologia tem como principal objetivo reduzir dificuldades como falta de planejamento, mudança constante de requisitos, escopo mal definido, falta de participação do cliente e falhas na comunicação, que são comuns em projetos de tecnologia. Além disso, o Scrum se baseia em entregas rápidas, contínuas e frequentes de softwares funcionais, constante cooperação entre equipe de trabalho e de negócio, excelência técnica e simplicidade.
 
 ## 5 Primeira tarefa
@@ -102,7 +101,8 @@ Para isso segue um pequeno check list de lugares para você se cadastrar/criar c
 * Agora informe o seu email para o seu buddy e peça para ele te adicionar no Slack, Google Drive, Bitbucket e Jira.
 
 ### 5.3 Estou perdido, tenho uma dúvida
-Não se desespere! É completamente normal termos dúvidas quando começamos a mexer em um novo projeto. Quando a dúvida surgir, existem várias formas de resolvê-las, por exemplo, se for uma dúvida técnica você pode consultar o Stack overflow, um projeto antigo, o bom e velho google ou até mesmo falar com algum colega de equipe. Caso você tenha alguma dúvida sobre o produto ou tarefas, fale com o P.O. da sua equipe.
+Não se desespere! É completamente normal termos dúvidas durante o nosso trabalho. Converse com seus colegas de trabalho sobre as duvidas que você tem, eles vão ser sempre prestativos. Nós também estamos montando um wiki onde você poderá tirar dúvidas mais técnicas, dê um olhada se existe algum documento que te ajuda. Caso uma duvida técnica persista, o Stack Overflow costuma ter boas respostas também.
+Não se sinta reprimido em fazer uma pergunta ou expor sua opinião. Nós estamos aqui pra isso!
 
 ### 5.4 Referência ao manual de processos - Guias disponíveis
 
@@ -130,17 +130,11 @@ Embora sejam independentes, as equipes podem (e devem) contar com a ajuda de tod
 Dentro das equipes não estabelecemos uma liderança formal. Aqui vale ressaltar que o P.O. não é um “líder” de projeto: sua função é facilitar o trabalho de todos organizando as tarefas, centralizando as decisões tomadas e criando um canal de comunicação organizado com o cliente e as demais áreas da empresa. As decisões técnicas e de projeto devem ser tomadas pela equipe como um todo, não existe alguém com palavra final. Isso exige que a equipe se comunique bastante, crie discussões, muitas vezes exigindo inputs de outras pessoas da empresa ou até mesmo do cliente. Isso não impede que pessoas assumam um papel de liderança dentro das equipes, de acordo com as especificidades técnicas e de produto em cada projeto. Na verdade, é natural que este tipo de dinâmica ocorra naturalmente durante nossos projetos, e isso ajuda bastante na nossa capacidade de conciliar vários projetos simultâneos.
 
 ### 6.4 Resolvendo conflitos
-É claro que alguns assuntos não podem ser resolvidos de forma tão estruturada e aberta. O corpo administrativo da empresa, composto principalmente por seus sócios, é responsável por tomar algumas decisões críticas e estratégicas que não serão abertas para discussão a todos da empresa. Ao mesmo tempo, queremos manter o máximo de transparência a respeito da estratégia e administração da Outsmart. Caso acredite que alguma decisão tenha sido tomada de forma errada, ou que não atingimos um nível suficiente de transparência, chame a atenção dos sócios e tentaremos explicar ou solucionar a situação da melhor forma possível. Também é importante que você mostre interesse em participar das discussões sobre os temas da empresa, tentaremos incluir o maior número de pessoas que considerarmos sensato em cada assunto.
+É claro que alguns assuntos não podem ser resolvidos de forma tão estruturada e aberta. O corpo administrativo da empresa, composto principalmente por seus sócios, é responsável por tomar algumas decisões críticas e estratégicas  da empresa. Ao mesmo tempo, queremos manter o máximo de transparência a respeito da estratégia e administração da Outsmart. Caso acredite que alguma decisão tenha sido tomada de forma errada, ou que não atingimos um nível suficiente de transparência, chame a atenção dos sócios e tentaremos explicar ou solucionar a situação da melhor forma possível. Também é importante que você mostre interesse em participar das discussões sobre os temas da empresa, tentaremos incluir o maior número de pessoas que considerarmos sensato em cada assunto.
 
-### 6.5 Feedbacks
-O feedback é o momento de avaliar o seu desempenho. Ele acontece mensalmente e consiste em um bate papo franco e aberto com os sócios da empresa. Nesse espaço, você poderá compartilhar suas impressões sobre o seu trabalho, o ambiente, a empresa e receber opiniões dos seus colegas sobre você. É um momento de extrema importância para garantir uma boa sintonia entre funcionário e empresa.
+### 6.7 Avaliação de Performance
+Quadrimestralmente fazemos o OGF (Outsmart Growth Framework), momento em que todos têm a oportunidade de avaliar outros colegas e ser avaliado de acordo com alguns pontos importantes para a empresa. Esta dinâmica é muito importante para cada um identificar seus pontos fortes e fracos para conseguir aprimorar e melhorar cada vez mais.
 
-### 6.6 Retrospectiva
-Mensalmente, a empresa se reúne para fazer a retrospectiva, que é um momento em que os funcionários têm 7 minutos para escrever em post-its qualquer coisa (qualquer coisa mesmo!) que os esteja desagradando em relação à empresa e 3 minutos para escrever coisas boas em relação à empresa. Após os post-its serem escritos, eles são lidos um de cada vez em voz alta e são categorizados conforme o assunto. Caso mais pessoas tenham escrito algo semelhante, todos são recolhidos ao mesmo tempo. Essa é outra ótima oportunidade de expressar os seus pensamentos e opiniões.
-
-### 6.7 OGF
-Semestralmente fazemos o OGF (Outsmart Growth Framework), momento em que todos têm a oportunidade de avaliar outros colegas e ser avaliado de acordo com alguns pontos importantes para a empresa. Esta dinâmica é muito importante para cada um identificar seus pontos fortes e fracos para conseguir aprimorar e melhorar cada vez mais.
-
-### 6.8 Política de uso de pcs/material de trabalho
-Os aparelhos, pcs e material de trabalho disponibilizado pela empresa é de uso dentro da empresa. Caso precise levar alguma coisa para casa para homeoffice, ou motivo específico, comunicar a empresa. 
+### 6.8 Política de uso de computadores/material de trabalho
+Os aparelhos, computadores e material de trabalho disponibilizado pela empresa é de uso dentro da empresa. Caso precise levar alguma coisa para casa para homeoffice, ou motivo específico, comunicar a empresa. 
 Ao final do dia, antes de ir embora, organize seu espaço e seus materiais para manter o nosso local de trabalho limpo e organizado! Lembre-se que outras pessoas podem usar o mesmo lugar que você usou.
