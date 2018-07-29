@@ -76,7 +76,8 @@ Todo aniversário, despedidas e entradas de pessoas na Outsmart nós gostamos de
 ## 4 Equipe
 
 ### 4.1 Como são organizadas as equipes
-Atualmente a empresa se divide em pequenas equipes de projeto, cada uma pode ter de 4 a 10 pessoas. Os projetos são divididos entre as equipes, mas um mesmo projeto não é compartilhado entre elas. Cada equipe tem um P.O. e os desenvolvedores podem estar em um ou mais projetos e mexer em uma ou mais tecnologias. 
+Atualmente a empresa se divide em pequenas equipes de projeto, cada uma pode ter de 4 a 10 pessoas. Os projetos são divididos entre as equipes, mas um mesmo projeto não é compartilhado entre elas. Cada equipe tem um P.O. e os desenvolvedores podem estar em um ou mais projetos e mexer em uma ou mais tecnologias.
+As equipes são autônomas e assumem responsabilidade end-to-end dos projetos. Isso significa que a equipe é responsável por planejar e desenvolver todo os os sistemas necessários para que o projeto chegue a uma conclusão. Esta dentro das responsabilidades da equipe identificar e resolver qualquer tipo de problema do projeto.
 Fora essas equipes, temos o time de Business que faz o processo de venda, pós venda e acompanhamento de escopo e também temos a equipe de Design que participa de todos os projetos.  
 
 ### 4.2 Projetos
@@ -84,9 +85,12 @@ Antes de começarmos a desenvolver um projeto, primeiramente existe a negociaç�
 Caso o contrato seja fechado, começa a segunda fase: a definição do escopo, em que será melhor definido as funcionalidades do app, quais farão parte desta fase e quais ficarão para as próximas fases, e também será gerado um product backlog que nos disponibiliza uma visão de alto nível das tarefas que precisam ser feitas. 
 A próxima etapa é o design, que continua durante todo o projeto. Nele nós definimos os fluxos, identidade visual e os assets de design. Simultaneamente, acontece a fase de configuração em que damos start em todas as plataformas e configuramos os ambientes do projeto. Nós temos um ciclo no qual separamos as tarefas do product backlog e as quebramos em tarefas menores e com elas definimos os sprints da semana. 
 
-### 4.4 Scrum
+### 4.3 Scrum
 O Scrum é um framework de desenvolvimento ágil que é baseado em sprints. Os sprints são um conjunto de tarefas que são realizadas em um período curto, normalmente uma ou duas semanas. O conceito é ter no final desse período funcionalidades que possam ser testadas e ter um feedback do cliente. No começo do sprint, nós fazemos um planejamento (planning) das tarefas que serão realizadas. Ao longo do sprint, nós fazemos diariamente um acompanhamento rápido do que cada pessoa fez (daily) e ao fim do sprint é feito um Review. Além disso, fazemos uma Retro onde são levantados pontos positivos e negativos.
 Nós utilizamos o Scrum por ser uma metodologia consolidada no mercado e por trazer muitas vantagens para o desenvolvimento do projeto. Essa metodologia tem como principal objetivo reduzir dificuldades como falta de planejamento, mudança constante de requisitos, escopo mal definido, falta de participação do cliente e falhas na comunicação, que são comuns em projetos de tecnologia. Além disso, o Scrum se baseia em entregas rápidas, contínuas e frequentes de softwares funcionais, constante cooperação entre equipe de trabalho e de negócio, excelência técnica e simplicidade.
+
+### 4.4 Chapters
+Para realizar um alinhamento entre todas as equipes da empresa, nós organizamos grupos para discutir as principais áreas de atuação. Os Chapters são uma forma de criar colaboração entre as pessoas que tem atuação em uma disciplina, como por exemplo, desenvolvimento iOS. Os integrantes de um Chapter devem compartilhar informação e discutir problemas relevantes ao seu tema constantemente. Uma vez por semana o Chapter faz uma reunião de uma hora para discutir um tema ou realizar uma apresentação/workshop. Pergunte para seus colegas qual deverá ser o seu chapter e entre no canal do slack para receber avisos.
 
 ## 5 Primeira tarefa
 
