@@ -34,7 +34,7 @@ Next add a UILabel to the screen, a little to the right of the ImageView. Click 
 
 Your Interface Builder should look similar to this:
 
-[[images/ios-tutorial/img1]]
+[[images/ios-tutorial/img1.png]]
 
 You can click on any of the views, change the constraints and see how the screen rearenge in real time. To change the constraints, select the view in the interface builder, click on the ruler tab, scroll down and change the constatnt value of any constraint.
 
@@ -50,7 +50,14 @@ Now we need to link the screen that was just created with our .swift class, so 
 
 First we create three variables in our UserProfileViewController class, on for each view on our screen. Write the following code on the .swift file.
 
-[code]
+```swift
+class UserProfileViewController: UIViewController {
+    
+    @IBOutlet weak var profileImage: UIImageView?
+    @IBOutlet weak var fullNameLabel: UILabel?
+    @IBOutlet weak var hometownLabel: UILabel?
+    ...
+```
 
 A little explanation on what we just did.
 
@@ -66,7 +73,17 @@ Now we need to link between the code and the interface builder. Open the interfa
 
 Since our iboutlets are now linked, we can go back to our .swift file and add some code. We will change the text and font color of our labels, and use the alamofire image pod to load an image from an url on our ImageView. Write the code below on the viewDidLoad method.
 
-[code]
+```swift
+override func viewDidLoad() {
+    super.viewDidLoad()
+
+    fullNameLabel?.text = "John Doe"
+    hometownLabel?.text = "New York"
+    if let url = URL(string: "https://picsum.photos/200?image=5") {
+        profileImage?.af_setImage(withURL: url)
+    }
+}
+```
 
 _tip: We can also change the properties of our view on the interface builder. This creates an ambiguity between configurations in code and configurations in the interface builder. To resolve this, always config your view's properties on code. Using our custom components and themes make this easier._
 
@@ -80,13 +97,26 @@ _ps: Our implementation of the coordinator class should not be confused with the
 
 First, lets create a custom initiation function on our view controller. This is a good practice, it makes it clear to anyone using this class what are the required parameters to start. It also makes the coordintor class more clean, and our code more easy to refactor if the requirements change. Create a new function on the UserProfileViewController class like this.
 
-[init vc code]
+```swift
+var userId: String?
+    
+class func newUserProfile(userId: String) -> UserProfileViewController {
+    let instance = UserProfileViewController(nibName: "UserProfileViewController", bundle: nil)
+    instance.userId = userId
+    return instance
+}
+```
 
 Please take note that we created a required parameter on our function, and stored it on a variable. This will be a reference to the user that our profile screen is presenting. Since this is a required parameter, if everyone uses that function when navigating to this screen will have to specify a userId, and we defend ourself from having a profile screen without a user reference.
 
 Now open the AppCoordinator.swift file and add a startUserProfile function. This is will be our navigation function, anyone that wants to navigate to the UserProfile screen should call this function on the AppCoordinator class.
 
-[go to  user profile code]
+```swift
+class func goToUserProfile (userId: String, parent: Any) {
+    let vc = UserProfileViewController.newUserProfile(userId: userId)
+    AppCoordinator.startViewController(newVC: vc, parent: parent)
+}
+```
 
 First we create a new instance of our view controller, then we use the start function to include the new instance on the navigation hierarchy. This is a comodity function that we created, simplifying the process of navigating to a new vc. The parent param will normally be a UINavigationController or a UIViewController.
 
@@ -94,7 +124,11 @@ Now you can choose any view controller in our app and use the coordinator to nav
 
 _tip: Use cmd + shift + F to open the project search tab and find any file you want to edit._
 
-[go to user profile code]
+```swift
+func flash() {
+    AppCoordinator.goToUserProfile(userId: "0", parent: navigationController)
+}
+```
 
 ## Run and Debug
 
@@ -118,18 +152,62 @@ We will start by making a simple view model to store the user data. This is a ve
 
 First lets create a new swift file, name it UserProfileViewModel.swift. We will start by creating a UserProfile datasource and delegate protocols. Write this code on the new file.
 
-[datasource/delegate protocol code]
+```swift
+protocol UserProfileDatasource: class {
+    func userFullname() -> String
+    func userHometown() -> String
+    func userProfilePicURL() -> URL?
+}
+
+protocol UserProfileDelegate: class {
+    func fetchUserProfileData()
+}
+```
 
 Here is the definition of swift protocols according to apple documentation.
 > A protocol defines a blueprint of methods, properties, and other requirements that suit a particular task or piece of functionality. The protocol can then be adopted by a class, structure, or enumeration to provide an actual implementation of those requirements. Any type that satisfies the requirements of a protocol is said to conform to that protocol.
 
 The reason we use protocols is to decouple the view model from the view controller. By using protocols we can change either the view controller or the view model implementations more easily. Lets create another protocol, the UserProfileFeedback. That protocol will be implemented by the view controller to respond to the viewmodel's events.
 
-[feedback protocol code]
+```swift
+protocol UserProfileFeedback: class {
+    func didLoadUserProfileData(error: Error?)
+}
+```
 
 Now that we have our protocols in place we can start coding our view model. For now we will create placeholders implementations and check if all is working. Write the following code on the UserProfileViewModel.swift file below the protocols.
 
-[view model code]
+```swift
+class UserProfileViewModel {
+    var userId: String?
+    weak var feedback: UserProfileFeedback?
+    
+    class func initWith(userId: String, feedback: UserProfileFeedback) -> (UserProfileDelegate, UserProfileDatasource) {
+        let instance = UserProfileViewModel.init()
+        instance.userId = userId
+        return (instance, instance)
+    }
+}
+
+extension UserProfileViewModel: UserProfileDatasource, UserProfileDelegate {
+    func userFullname() -> String {
+        return "Maria Santana"
+    }
+    
+    func userHometown() -> String {
+        return "Appleville"
+    }
+    
+    func userProfilePicURL() -> URL? {
+        return URL(string: "https://picsum.photos/200?image=6")
+    }
+    
+    func fetchUserProfileData() {
+        //Later we will call API here
+        feedback?.didLoadUserProfileData(error: nil)
+    }
+}
+```
 
 Here, is important to note that the feedback variable was declared as weak and of the UserProfileFeedback? type. Also, we are using a protocol type instead of the ViewController type to decouple our layers. The variable is weak to avoid a reference cycle that could cause a memory leak. Since the variable is weak, we need to make it an optinal type. Please follow this pattern when creating feedback variables on all view models.
 
@@ -141,7 +219,46 @@ Now that we created our view model we will use it to store and provide informati
 
 We will rewrite our view controller. Replace all the code on the UserProfileViewController.swift file by the following.
 
-[new view controller code]
+```swift
+import UIKit
+
+class UserProfileViewController: UIViewController {
+    
+    @IBOutlet weak var profileImage: UIImageView?
+    @IBOutlet weak var fullNameLabel: UILabel?
+    @IBOutlet weak var hometownLabel: UILabel?
+    
+    var userId: String?
+    var datasource: UserProfileDatasource?
+    var delegate: UserProfileDelegate?
+    
+    class func newUserProfile(userId: String) -> UserProfileViewController {
+        let instance = UserProfileViewController(nibName: "UserProfileViewController", bundle: nil)
+        instance.userId = userId
+        return instance
+    }
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        (delegate, datasource) = UserProfileViewModel.initWith(userId: "0", feedback: self)
+        delegate?.fetchUserProfileData()
+    }
+}
+
+extension UserProfileViewController: UserProfileFeedback {
+    func didLoadUserProfileData(error: Error?) {
+        if let error = error {
+            alert(title: "Error!", message: error.localizedDescription, actions: nil)
+        }
+        fullNameLabel?.text = datasource?.userFullname()
+        hometownLabel?.text = datasource?.userHometown()
+        
+        if let url = datasource?.userProfilePicURL() {
+            profileImage?.af_setImage(withURL: url)
+        }
+    }
+}
+```
 
 Now our view controller and view model are only interacting via protocol methods. Congrats! Your code is more decoupled now!
 
