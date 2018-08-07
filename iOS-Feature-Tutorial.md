@@ -13,7 +13,7 @@ If this is the first time running this project, you will need to run the "pod in
 ## ViewController
 It is not always the case, but usually a new feature requires a new Screen. On iOS that means that we should create a new ViewController. Create a new folder named "UserProfile" on the "Controllers" folder, we will put most of our files there. We have a base class for VCs, so create a new ViewController file, name it UserProfileViewController. Xcode will ask if you want to create a .xib file, confirm that you want that.
 
-[image/gif of folder structure]
+[[images/ios-tutorial/test2.gif]]
 
 Now we have two files. The .swift file will have our screen logic, while the .xib file will have the interface layout. First, lets make some changes to the .xib file.
 
@@ -22,7 +22,7 @@ Now we have two files. The .swift file will have our screen logic, while the .
 Here at Outsmart we use Xib for interfaces. We don't use Storyboards and we don't write all interfaces in code. We use autolayout to make our views responsive. Click on the .xib file to open the interface builder.
 First add a UIImageView into our new screen. Use the Interface Builder and drag a UIImageView into the ViewController. Click on the add contrains button and add constrains to the top spacing, left spacing, height and width. 
 
-[gif of drag and constraints] 
+[[images/ios-tutorial/test3.gif]]
 
 _tip: The basic constraint structure is to have 4 constraints (2 vertical, 2 horizontal) define the view size and position on screen, no more, no less. Use this rule to avoid having constraint errors. _
 
@@ -30,15 +30,15 @@ _advanced tip: That is not enough to make automatic dimension views such as UITa
 
 Next add a UILabel to the screen, a little to the right of the ImageView. Click on the add contrains button and add constrains to the top spacing, left spacing, right spacing and height. Add another UILabel to the right of the ImageView, and below the first UILabel. Add constrains to the top spacing, left spacing, right spacing and height.
 
-[gif of drag and constraints]
+[[images/ios-tutorial/test4.gif]]
 
 Your Interface Builder should look similar to this:
 
-[image of interface builder]
+[[images/ios-tutorial/img1]]
 
 You can click on any of the views, change the constraints and see how the screen rearenge in real time. To change the constraints, select the view in the interface builder, click on the ruler tab, scroll down and change the constatnt value of any constraint.
 
-[gif of changing constraints]
+[[images/ios-tutorial/test5.gif]]
 
 _tip: It's very common to have a screen with a long/infinite list of components, such as a user list or a feed of news. In that case we use the power of the UITableView. Since our views are very simple, we didn't need to use a TableView, but if you want to learn more about it please search our wiki or ask your colleagues._
 
@@ -62,7 +62,7 @@ A little explanation on what we just did.
 
 Now we need to link between the code and the interface builder. Open the interface builder, click on the UserProfileViewController and then on the connections inspector tabs. There you will see our variables, just drag from the small circle to each view. You can follow those steps on the gif below.
 
-[gif of iboutlet linking]
+[[images/ios-tutorial/test6.gif]]
 
 Since our iboutlets are now linked, we can go back to our .swift file and add some code. We will change the text and font color of our labels, and use the alamofire image pod to load an image from an url on our ImageView. Write the code below on the viewDidLoad method.
 
@@ -100,15 +100,15 @@ _tip: Use cmd + shift + F to open the project search tab and find any file you w
 
 Now that our new screen was added to the app navigation we can run the project on the simulator and test our code. Choose any simulator and click on the run button to start our app. Click on the thunder icon to open our screen and see if its working as intended.
 
-[gif of app]
+[[images/ios-tutorial/test7.gif]]
 
 Now is a good time to learn about debuging. Debuging is a very important skill for any software engineer, so it's better if we start learning about it as soon as possible. Xcode make it easy to make some simple debuging. Select the UserProfileViewController.swift file and click on the line number to create a new breakpoint.
 
-[image of breakpoint]
+[[images/ios-tutorial/test8.gif]]
 
 Now if you run the project again, the code will stop right before our screen shows on the app. Then you can check the view controller instance variables and see that the userId that we sent before is set with the correct value. To resume the simulator, click on the resume (play)  button.
 
-[image of debugging]
+[[images/ios-tutorial/test9.gif]]
 
 ## View Model
 
@@ -147,7 +147,7 @@ Now our view controller and view model are only interacting via protocol methods
 
 Test again by running the code on the simulator and check if everything is working as intended.
 
-[image of profile vc updated]
+[[images/ios-tutorial/img2]]
 
 ## End of Part 1
 Right now we have a working User Profile implementation, with a clean decoupling of the ViewModel and ViewController layers. Congrats! If you followed everything up to here you lerned a lot of what is needed to be a iOS developer.
