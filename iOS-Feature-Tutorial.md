@@ -24,7 +24,7 @@ First add a UIImageView into our new screen. Use the Interface Builder and drag 
 
 [[images/ios-tutorial/test3.gif]]
 
-_tip: The basic constraint structure is to have 4 constraints (2 vertical, 2 horizontal) define the view size and position on screen, no more, no less. Use this rule to avoid having constraint errors. _
+_tip: The basic constraint structure is to have 4 constraints (2 vertical, 2 horizontal) define the view size and position on screen, no more, no less. Use this rule to avoid having constraint errors._
 
 _advanced tip: That is not enough to make automatic dimension views such as UITableViewCell and UIScrollView._
 
@@ -264,7 +264,7 @@ Now our view controller and view model are only interacting via protocol methods
 
 Test again by running the code on the simulator and check if everything is working as intended.
 
-[[images/ios-tutorial/img2]]
+[[images/ios-tutorial/img2.png]]
 
 ## End of Part 1
 Right now we have a working User Profile implementation, with a clean decoupling of the ViewModel and ViewController layers. Congrats! If you followed everything up to here you lerned a lot of what is needed to be a iOS developer.
