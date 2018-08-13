@@ -11,6 +11,8 @@
 
 == [[iOS]] ==
 
+* [[iOS Feature Tutorial]]
+
 == [[Web]] ==
 
 == [[Backend]] ==
