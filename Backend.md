@@ -1,4 +1,3 @@
-Índice de páginas relacionadas ao Backend:
 ## 1. Introduction
 
 In this guide, we'll be explaining our backend structure, focusing on how the project is structured, what are the main funcionalities of our base project, and how to develop a new feature from scratch.
@@ -209,4 +208,4 @@ This module works together with the Authorizer module, it will help us to manage
 
 ## 8. Creating your first endpoint from scratch
 
-So, are you still a bit lost? I would be surprised if you are not lost, the best way to understand everything is to practice everything you learn, so let's see how we can [create our first endpoint]()
+So, are you still a bit lost? I would be surprised if you are not lost, the best way to understand everything is to practice everything you learn, so let's see how we can [create our first endpoint](https://github.com/appsimples-dev/general-documentation/wiki/Backend-Feature-Tutorial)
