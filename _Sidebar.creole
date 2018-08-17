@@ -1,22 +1,22 @@
 [[images/logos.png]]
 
 == Comece Aqui ==
-
 * [[Manual de Onboarding]]
 * [[Manual de Desenvolvimento]]
 
 == [[Home]]==
 
 == [[Android]] ==
-
 * [[Useful Android Links]]
 
 == [[iOS]] ==
-
+* [[Useful iOS Links]]
 * [[iOS Feature Tutorial]]
 
 == [[Web]] ==
+* [[Useful Web Links]]
 
 == [[Backend]] ==
-
+* [[Useful Backend Links]]
+* [[Backend Architecture]]
 * [[Backend Feature Tutorial]]
