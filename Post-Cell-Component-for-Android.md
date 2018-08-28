@@ -2,7 +2,7 @@
 
 TODO
 
-[[images/android-post-component/PostComponentImage1]]
+[[https://github.com/appsimples-dev/general-documentation-wiki/blob/master/images/android-post-component/InteractionBar.png]]
 
 ## 2. Elements
 
