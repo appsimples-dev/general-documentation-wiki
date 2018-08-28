@@ -1,0 +1,1 @@
+To collaborate, [fork it and send a pull request](https://github.com/Tyriar/general-documentation-wiki)
