@@ -1,0 +1,15 @@
+script:
+- |-
+  git config user.name "appsimples"
+  git config user.email "appsimples@gmail.com"
+  git remote remove origin
+  git remote add origin https://$GITHUB_API_KEY@github.com/appsimples-dev/general-documentation-wiki.git > /dev/null 2>&1
+  git remote add upstream https://$GITHUB_API_KEY@github.com/appsimples-dev/general-documentation.wiki.git > /dev/null 2>&1
+  git fetch origin
+  git fetch upstream
+  git merge upstream/master --no-edit
+  git push origin HEAD:master > /dev/null 2>&1
+  git push upstream HEAD:master > /dev/null 2>&1
+env:
+  matrix:
+    secure: AjqJaOCnlRqZ5hBNyY737qTtPcfbbnKAXgg2Ra0xyNc16Y4+yOBCA7M6lqfrMZivuCQ2JnebpKz0t58D/irRUZCEm73wOVKzaH5uim8Pw+JL8/rp6+cK9hAa/wN3TXnxRIQz+LByofDq/B8ixtpvTBkOPErMoFwc9LKGUBJipE3cRn0tmgA70KUCtDhYu849tTvQVLTdRsWQ33hbFCybrC3qJote0VwPPFisQ132EwPzNFkM/ChtWFpouI8OP4U54/JJnPJmd1V32X8+6PpxkJB/Ti28lq1F78hmmys4r2nvhAZdU4k9de65Ayy1bP552Qtj6mnnlk6uchy6dIX3e+t2wzPSXMPH8QIw3tMpOURI6OowxtsVNfPWk45opamPnvchY66JNbg5dnysakgVkg3Iac4J53Zpp6XVG7+pQ/kZ2vEpowaXO6JsvuuYs7P2/kRBSuSs5m8LdWMEIASgFqXA90mBVh7j/dXuVVY6dyT5Ax4SPe+eV5aQLxeIm4+0A2Qnm/yKOs0SJMx42cs58vE3KAZhN1Z16Bk72aNwCgJpwZziYv1ID4iTglrlZqdoJr1t0YelFQP/817mZQ7JoKCs4tKfjYORh/QQRKMk/5Kj9slvm7xbAosb19NQeOSIoXk9QzdcyMZeeQ7xUPjz/7rWz7AjpJmYRzw7zy6qK+0=
