@@ -1,5 +1,3 @@
-# Post Cell Component for Android
-
 ## 1. How to Install 
 
 TODO
