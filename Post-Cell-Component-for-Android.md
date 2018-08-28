@@ -2,13 +2,13 @@
 
 TODO
 
-[[images/PostComponentImage1.jpeg]]
+[[images/android-post-component/PostComponentImage1.jpeg]]
 
 ## 2. Elements
 
 The following picture shows the elements of the post, which are listed and described bellow. 
 
-[[images/NumberedPostCell.png]]
+[[images/android-post-component/NumberedPostCell.png]]
 
 1. Profile Picture: if no image is sent, shows a placeholder. It is clickable. 
 2. User name: is clickable.
@@ -22,7 +22,7 @@ The following picture shows the elements of the post, which are listed and descr
 7. Post Media: in this version, only images are allowed. When double tapped, it shows a heart animation.
 8. Interaction bar: can have up to 5 buttons. Ther position is determined by the numbers on the image bellow. They can have 2 images (one for when the button is selected and the other when it is unselected, which is the default one) and text. None of the parameters is mandatory, so the button can have only image or text. 
 
-[[images/InteractionBar.png]]
+[[images/android-post-component/InteractionBar.png]]
 
 ## 3. How to Use
 
