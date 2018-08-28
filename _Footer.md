@@ -1,1 +1,1 @@
-To collaborate, [fork it and send a pull request](https://github.com/appsimples/general-documentation-wiki)
+To collaborate, [fork it and send a pull request](https://github.com/appsimples-dev/general-documentation-wiki)
